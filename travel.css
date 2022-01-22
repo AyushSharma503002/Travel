@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+    padding-left: 140.6px;
+    margin: 0px;
+}
+
+.jadoo {
+    padding-top: 48.7px;
+    float: left;
+}
+
+ul {
+    padding-left: 450px;
+    padding-top: 56px;
+}
+
+li {
+    position: relative;
+    float: left;
+    display: inline;
+    padding: 20px;
+}
+
+.signup {
+    width: 15px;
+    height: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink {
+    position: absolute;
+    width: 766.31px;
+    height: 872.58px;
+    left: 736px;
+    top: -149px;
+    background: #FFF1DA;
+}
+
+.img {
+    position: absolute;
+    width: 765px;
+    height: 764px;
+    left: 565px;
+    top: 155px;
+    background: url(Traveller.png);
+}
+
+.heading h2 {
+    padding-top: 217px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #DF6951;
+}
+
+.heading h1 {
+    font-family: Volkhov;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 89px;
+    padding-top: 24px;
+    letter-spacing: -0.04em;
+    color: #181E4B;
+}
+
+.heading h3 {
+    position: absolute;
+    position: absolute;
+    width: 477px;
+    height: 90px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    width: 477px;
+    height: 90px;
+    color: #5E6282;
+}
+
+.find {
+    padding-top: 711px;
+}
