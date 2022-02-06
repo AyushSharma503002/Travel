@@ -1,42 +1,23 @@
 body {
-    box-sizing: border-box;
-    padding-left: 140.6px;
-    margin: 0px;
+    position: relative;
+    height: 4774px;
+    background: #FFFFFF;
+    width: 1440px;
+    height: 4774px;
+}
+
+* {
+    left: 140.7px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .jadoo {
-    padding-top: 48.7px;
-    float: left;
-}
-
-ul {
-    padding-left: 450px;
-    padding-top: 56px;
-}
-
-li {
-    position: relative;
-    float: left;
-    display: inline;
-    padding: 20px;
-}
-
-.signup {
-    width: 15px;
-    height: 10px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.pink {
     position: absolute;
-    width: 766.31px;
-    height: 872.58px;
-    left: 736px;
-    top: -149px;
-    background: #FFF1DA;
+    width: 114.91px;
+    height: 33.99px;
+    top: 48.7px;
 }
 
 .img {
@@ -44,47 +25,169 @@ li {
     width: 765px;
     height: 764px;
     left: 565px;
-    top: 155px;
+    top: 105px;
     background: url(Traveller.png);
 }
 
-.heading h2 {
-    padding-top: 217px;
-    font-family: Poppins;
-    font-style: normal;
+#destination {
+    position: absolute;
+    width: 410px;
+    height: 30px;
+    top: 217px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     text-transform: uppercase;
     color: #DF6951;
 }
 
-.heading h1 {
-    font-family: Volkhov;
-    font-style: normal;
+#travel {
+    position: absolute;
+    width: 545px;
+    height: 267px;
+    top: 250px;
     font-weight: bold;
     font-size: 84px;
     line-height: 89px;
-    padding-top: 24px;
     letter-spacing: -0.04em;
     color: #181E4B;
 }
 
-.heading h3 {
-    position: absolute;
+#built {
     position: absolute;
     width: 477px;
     height: 90px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
+    top: 568px;
     font-size: 16px;
     line-height: 30px;
-    width: 477px;
-    height: 90px;
     color: #5E6282;
 }
 
 .find {
-    padding-top: 711px;
+    position: absolute;
+    width: 117px;
+    height: 23px;
+    left: 175px;
+    top: 700px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px;
+}
+
+.find a {
+    text-decoration: none;
+}
+
+.find a:link {
+    color: rgb(12, 2, 2);
+}
+
+.playlogo {
+    height: 52px;
+    width: 52px;
+    background-color: #DF6951;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.playlogo h5 {
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 435px;
+    top: 711px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #686D77;
+}
+
+.subhead h3 {
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 652px;
+    top: 974px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #5E6282;
+}
+
+.subhead h2 {
+    position: absolute;
+    width: 547px;
+    height: 65px;
+    left: 428px;
+    top: 1011px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+}
+
+.fig1 {
+    position: absolute;
+    width: 190px;
+    height: 227px;
+    left: 154px;
+    top: 1186px;
+}
+
+.fig1 h4 {
+    width: 190px;
+    height: 27px;
+    left: 154px;
+}
+
+.fig1 h6 {
+    width: 181px;
+    height: 78px;
+    left: 159px;
+}
+
+.navbar {
+    float: right;
+    padding-left: 468px;
+}
+
+.navbar li {
+    display: inline;
+    padding: 15px;
+}
+
+.navbar ul {
+    padding-top: 56px;
+    padding-right: 150px;
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    color: rgb(105, 100, 100);
 }
